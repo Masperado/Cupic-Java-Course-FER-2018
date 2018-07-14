@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DZ18</string>
+    <string name="composeMail">Compose email</string>
+    <string name="sendTo">Send to:</string>
+    <string name="send">Send</string>
+    <string name="message">Message:</string>
+    <string name="title">Title:</string>
+    <string name="invalidEmail">Invalid email!</string>
+    <string name="invalidTitle">Title can\'t be empty!</string>
+    <string name="invalidMessage">Message can\'t be empty!</string>
+    <string name="sendMail">Send mail</string>
+    <string name="noEmailClient">There is no email client installed!</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DZ18</string>
+    <string name="composeMail">Sastavi poruku</string>
+    <string name="title_activity_compose_mail">ComposeMailActivity</string>
+    <string name="sendTo">Primatelj:</string>
+    <string name="send">Pošalji</string>
+    <string name="message">Poruka:</string>
+    <string name="title">Naslov:</string>
+    <string name="invalidEmail">Neispravan email!</string>
+    <string name="invalidTitle">Naslov ne može biti prazan!</string>
+    <string name="invalidMessage">Poruka ne može biti prazna!</string>
+    <string name="sendMail">Pošalji mail</string>
+    <string name="noEmailClient">Nije instaliran email klijent!</string>
+</resources>

@@ -1,0 +1,10 @@
+{$= "text/html" @setMimeType $}
+<html>
+ <head>
+ <title>Mjenjaje pozadine</title>
+ </head>
+ <body>
+<h1>{$= "message" "" @tparamGet $}</h1>
+ <h1><a href="/index2.html">Home</a></h1>
+ </body>
+</html>

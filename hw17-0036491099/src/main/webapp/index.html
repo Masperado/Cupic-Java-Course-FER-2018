@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Galerija</title>
+
+    <style>
+        * {
+            background-color: #eff291;
+        }
+
+        button {
+            background-color: blue;
+            border-style: solid;
+            border-width: 0px;
+            color: #eff291;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+            overflow: hidden;
+            text-align: center;
+            text-overflow: ellipsis;
+            font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial,
+            sans-serif;
+            font-weight: 700;
+            padding: 10px 10px;
+            font-size: 18px;
+        }
+
+        button:active {
+            background-color: red;
+        }
+
+        img {
+            border-style: solid;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .thumb {
+            opacity: 0.7;
+            height: auto;
+            -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+            transition: opacity 0.5s, -webkit-transform 0.5s;
+            transition: transform 0.5s, opacity 0.5s;
+            transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+        }
+
+        .thumb:hover {
+            opacity: 1;
+            -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+        }
+
+        #picture {
+            font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial,
+            sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/htmlescaping.js"></script>
+    <script type="text/javascript"><!--
+
+    $(document).ready(
+        function () {
+            $.ajax(
+                {
+                    url: "rest/gallery",
+                    data: {
+                        dummy: Math.random()
+                    },
+                    dataType: "json",
+                    success: function (data) {
+                        var tags = data;
+                        var html = "";
+                        for (var i = 0; i < tags.length; i++) {
+                            html += "<button onclick='getThumbnails(\"" + htmlEscape(tags[i]) +
+                                "\")'>" +
+                                htmlEscape(tags[i]) +
+                                "</button>&nbsp;";
+                        }
+                        $("#tags").html(html);
+                    }
+                }
+            )
+        }
+    );
+
+
+    function getThumbnails(tag) {
+        $.ajax(
+            {
+                url: "rest/gallery/" + tag,
+                data: {
+                    dummy: Math.random()
+                },
+                dataType: "json",
+                success: function (data) {
+                    var thumbnails = data;
+                    var html = "<br><hr>";
+                    for (var i = 0; i < thumbnails.length; i++) {
+                        html += "<img class='thumb' src='image?name=" + htmlEscape(thumbnails[i].path)
+                            + "&thumb=yes' onclick='getPicture(\""
+                            + htmlEscape(thumbnails[i].path) + "\")'>";
+                    }
+                    $("#thumbnails").html(html);
+                }
+            }
+        );
+    }
+
+    function getPicture(path) {
+        $.ajax(
+            {
+                url: "rest/gallery/picture/" + path,
+                data: {
+                    dummy: Math.random()
+                },
+                dataType: "json",
+                success: function (data) {
+                    var picture = data;
+                    var html = "<br><hr>";
+                    html += "<div>" + htmlEscape(picture.name) + "</div><br>";
+                    html += "<div>" + htmlEscape(picture.tags) + "</div><br>";
+                    html += "<img src='image?name=" + htmlEscape(picture.path) + "'></img><br>";
+                    $("#picture").html(html);
+                }
+            }
+        );
+    }
+
+    //--></script>
+</head>
+<body>
+<br>
+<div id="tags">&nbsp;</div>
+<div id="thumbnails">&nbsp;</div>
+<div id="picture">&nbsp;</div>
+
+
+</body>
+</html>
