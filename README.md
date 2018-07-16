@@ -1,5 +1,15 @@
-# Osnove programskog jezika Java
+Imam 24 godine i jutros sam se prvi put u životu probudija sam od sebe prije 8 sati. Potpuno odmoran. A zaspa sam iza 3. Bistrih očiju, osjećaja četvrtaša prije polaska na prvu ekskurziju na kojoj će planirano prvi put u životu simpatiju iz razreda upitat za ples.
 
-## FER, ljetni semestar ak.god. 2017./2018., Predavač: doc.dr.sc. Marko Čupić
+Pored mene je spavala najvoljenija osoba. Poljubija sam je i dok je još buncala u polusnu joj reka: "Danas je prvi dan ostatka naših života. Večeras ćemo spavat u zemlji prvaka svita u nogometu. Na krevetu zemlje prvaka svita u nogometu. I imat ćeš momka iz zemlje prvaka svita u nogometu. I ja curu iz zemlje prvaka svita u nogometu. Osjećam to. Danas nas ni Galacticosi ne mogu zaustavit".
 
-### NAPOMENA: Ako trenutno polažete vještinu, molim vas da ne gledate ova rješenja. Čak i samo gledanje ovih rješenja i kopiranja nekih od mojih ideja može vam donijeti oduzimanje prava na polaganje vještine. Bitno je naučite sami nešto, steknete vlastite ideje, a ne da kopirate zadaće s interneta.
+Ostatak dana prolazija je užasno sporo. Minute ko dani. Sati ko godine. S jednom jedinom mišlju u glavi koja je ionako već puna baluna. Vrtili su se svi mogući filmovi da se organizam barem ušporko pripremi. Od planiranja skakanja u more u robi do onoga "šta ako nas na kraju razbiju".
+
+Prošlo je sve. Znate kako. A večeras... Večeras se osjećam tužno. A ne mogu nikog okrivit za to. Nikog osim nogometnih bogova koji su nam rekli: "Stop!" Nemojte me krivo svatit. Nisam pohlepan. Ne osjećam se tužno jer smo drugi. Naprotiv, kada je u pitanju nogomet i ljubav prema domovini, nikad se nisam osjeća ponosnije. Ali večeras sam tako tija spavat u zemlji prvaka svita u nogometu.
+
+Osjećam se tužno jer smo bili jebeno najbolji, jer smo mogli dobit te Francuze da se nogometni bogovi opet nisu odlučili zajebavat sa nama. A moju tugu drastično je povećala šetnja kroz moj grad i slavlje ljudi koje nisam doživija nikad. I tek onda me strašno počelo bolit. "Šta bi bilo da smo osvojili? Gorilo bi sve danima!", stalno mi se motalo po glavi. I svaku zastavu koju sam vidija, i svaku pismu koju sam čuja. Sve me gazilo. Do plača. Do svaćanja da uz sav ovaj ponos koji osjećam nikad neću prižalit šta nismo uzeli boginju. A bili smo milimetrima od nje. Neki naši su je čak i poljubili.
+
+Osjećam se tužno jer je gotov festival baluna, a četiri godine čekanja nisu malo. Za četiri godine imat ću 28. Ona moja najvoljenija osoba s početka dana mi neće više bit cura nego žena. A možda me neće više ni bit. Nepredvidiv je život, a ovo šta smo doživili ovih zadnjih misec dana vrlo vjerojatno nećemo doživit više nikad u životu. To je bilo sad i vrlo vjerojatno više nikad.
+
+Ipak, ako Bog da, jednog dana ću otvorit dušu malom potomku Hrvatu i zajedno s najvoljenijom osobom s početka dana pun ponosa, ali i doze gorčine prepričat kako je svaki moj sunarodnjak tih dana disa samo za jedno. Da pokažemo svitu kako nismo ona slika sa ceremonije dodjele medalja na kojoj svi imaju kišobran, a jedino mi kisnemo. Da, koliko god se držali visoko iznad nas, imamo nešto za šta se ipak prije 20 i nešto godina debelo isplatilo borit.
+
+Momci, ljudi, plakat ću ako dragi Bog da za 10-20-30 godina na ova sjećanja. Šta od ponosa, šta od tuge. I hvala vam na tome. Hvala vam na predivnom litu 2018. I na 4 i kusur milijuna ovakvih priča. Priča koje ćemo nosit duboko u sebi. Ko '98. Zauvik. Zato nogomet i postoji. Zato život postoji. Emocije se zajebane...
